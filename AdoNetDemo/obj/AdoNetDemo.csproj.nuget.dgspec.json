@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fellandes\\RiderProjects\\Course1\\AdoNetDemo\\AdoNetDemo.csproj": {}
+    "C:\\Users\\Fellandes\\RiderProjects\\Course\\AdoNetDemo\\AdoNetDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fellandes\\RiderProjects\\Course1\\AdoNetDemo\\AdoNetDemo.csproj": {
+    "C:\\Users\\Fellandes\\RiderProjects\\Course\\AdoNetDemo\\AdoNetDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fellandes\\RiderProjects\\Course1\\AdoNetDemo\\AdoNetDemo.csproj",
+        "projectUniqueName": "C:\\Users\\Fellandes\\RiderProjects\\Course\\AdoNetDemo\\AdoNetDemo.csproj",
         "projectName": "AdoNetDemo",
-        "projectPath": "C:\\Users\\Fellandes\\RiderProjects\\Course1\\AdoNetDemo\\AdoNetDemo.csproj",
+        "projectPath": "C:\\Users\\Fellandes\\RiderProjects\\Course\\AdoNetDemo\\AdoNetDemo.csproj",
         "packagesPath": "C:\\Users\\Fellandes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fellandes\\RiderProjects\\Course1\\AdoNetDemo\\obj\\",
+        "outputPath": "C:\\Users\\Fellandes\\RiderProjects\\Course\\AdoNetDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

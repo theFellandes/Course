@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Fellandes\\RiderProjects\\Course1\\InterfacesDemo\\InterfacesDemo.csproj",
+      "projectUniqueName": "C:\\Users\\Fellandes\\RiderProjects\\Course\\InterfacesDemo\\InterfacesDemo.csproj",
       "projectName": "InterfacesDemo",
-      "projectPath": "C:\\Users\\Fellandes\\RiderProjects\\Course1\\InterfacesDemo\\InterfacesDemo.csproj",
+      "projectPath": "C:\\Users\\Fellandes\\RiderProjects\\Course\\InterfacesDemo\\InterfacesDemo.csproj",
       "packagesPath": "C:\\Users\\Fellandes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Fellandes\\RiderProjects\\Course1\\InterfacesDemo\\obj\\",
+      "outputPath": "C:\\Users\\Fellandes\\RiderProjects\\Course\\InterfacesDemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

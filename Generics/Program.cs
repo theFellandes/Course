@@ -7,19 +7,60 @@ namespace Generics
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Utilities utilities = new Utilities();
+            List<string> cities = utilities.BuildList<string>("Ankara", "İstanbul", "İzmir");
+            foreach (var city in cities)
+            {
+                Console.WriteLine(city);
+            }
+
+            List<Customer> result = utilities.BuildList(new Customer{FirstName = "Foo"}, 
+                new Customer{FirstName = "Foo2"});
+            foreach (var item in result)
+            {
+                Console.WriteLine(item);
+            }
+        }
+    }
+
+    class Utilities
+    {
+        public List<T> BuildList<T>(params T[] items)
+        {
+            return new (items);
         }
     }
     
     //T type'tan gelir
     //Bu customer için de ve product için de geçerli
-    interface IRepository<T>
+    // interface IRepository<T>
+    // {
+    //     List<T> GetAll();
+    //     T Get(int id);
+    //     void Add(T entity);
+    //     void Delete(T entity);
+    //     void Update(T entity);
+    // }
+    
+    //Generic constraint
+    //where T : class denen şey class değil, reference tipi olması gerekiyor.
+    //class olmasını sağlamanın yolu class ve new() yapmamız gerekiyor yani new'lenebilir bir
+    //reference tipi olmasını şartlıyoruz.
+    //T reference tipi olmalı, IEntity'den implement edilmeli ve new'lenmeli
+    //new() her zaman sonda olmak zorunda
+    //Eğer struct deseydik değer tiplere karşılık gelirdi.
+    interface IRepository<T> where T : class, IEntity, new()
     {
         List<T> GetAll();
         T Get(int id);
         void Add(T entity);
         void Delete(T entity);
         void Update(T entity);
+    }
+
+    interface IEntity
+    {
+        
     }
 
     // interface IProductDal
@@ -36,7 +77,7 @@ namespace Generics
         
     }
 
-    class Product
+    class Product : IEntity
     {
         
     }
@@ -80,12 +121,12 @@ namespace Generics
     
     interface ICustomerDal : IRepository<Customer>
     {
-
+        void Custom();
     }
 
-    class Customer
+    class Customer : IEntity
     {
-        
+        public string FirstName { get; set; }
     }
 
     class CustomerDal : ICustomerDal
@@ -111,6 +152,11 @@ namespace Generics
         }
 
         public void Update(Customer entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Custom()
         {
             throw new NotImplementedException();
         }

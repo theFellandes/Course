@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uekO/EI9pYKokytvj2czgKVChqcZkBSmAbK3dUAtG59KDmr5Vm5coGgJKbaZxB89ByeuBGq7GjtkhWpztTcJ6g==",
+  "dgSpecHash": "hYZyylBJiN/KW2T+3zxG8YmND0CFHms5QvracmX1X+ZPDAepAwlH5ZhxXAKPuq95GEByQoVF2di1BwrbL1N9Mw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Fellandes\\RiderProjects\\Course1\\AdoNetDemo\\AdoNetDemo.csproj",
+  "projectFilePath": "C:\\Users\\Fellandes\\RiderProjects\\Course\\AdoNetDemo\\AdoNetDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Fellandes\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.7\\microsoft.entityframeworkcore.5.0.7.nupkg.sha512",
     "C:\\Users\\Fellandes\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.7\\microsoft.entityframeworkcore.abstractions.5.0.7.nupkg.sha512",

@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Fellandes\\RiderProjects\\Course1\\VirtualMethods\\VirtualMethods.csproj",
+      "projectUniqueName": "C:\\Users\\Fellandes\\RiderProjects\\Course\\VirtualMethods\\VirtualMethods.csproj",
       "projectName": "VirtualMethods",
-      "projectPath": "C:\\Users\\Fellandes\\RiderProjects\\Course1\\VirtualMethods\\VirtualMethods.csproj",
+      "projectPath": "C:\\Users\\Fellandes\\RiderProjects\\Course\\VirtualMethods\\VirtualMethods.csproj",
       "packagesPath": "C:\\Users\\Fellandes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Fellandes\\RiderProjects\\Course1\\VirtualMethods\\obj\\",
+      "outputPath": "C:\\Users\\Fellandes\\RiderProjects\\Course\\VirtualMethods\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

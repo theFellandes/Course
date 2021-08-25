@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fellandes\\RiderProjects\\Course1\\Generics\\Generics.csproj": {}
+    "C:\\Users\\Fellandes\\RiderProjects\\Course\\Generics\\Generics.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fellandes\\RiderProjects\\Course1\\Generics\\Generics.csproj": {
+    "C:\\Users\\Fellandes\\RiderProjects\\Course\\Generics\\Generics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fellandes\\RiderProjects\\Course1\\Generics\\Generics.csproj",
+        "projectUniqueName": "C:\\Users\\Fellandes\\RiderProjects\\Course\\Generics\\Generics.csproj",
         "projectName": "Generics",
-        "projectPath": "C:\\Users\\Fellandes\\RiderProjects\\Course1\\Generics\\Generics.csproj",
+        "projectPath": "C:\\Users\\Fellandes\\RiderProjects\\Course\\Generics\\Generics.csproj",
         "packagesPath": "C:\\Users\\Fellandes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fellandes\\RiderProjects\\Course1\\Generics\\obj\\",
+        "outputPath": "C:\\Users\\Fellandes\\RiderProjects\\Course\\Generics\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

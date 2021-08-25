@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4PYx2XdNiGX8WYrGBDlduyt68iy/39z5Yd7yYmb/ZsFiJoSiQvfwmWVd0HknHKoalN1VuYOAd4UYduT0MkGARg==",
+  "dgSpecHash": "Fmx4aMTJyMVJh++OFIgW2JHpGecrLGOEG7J5QwVssLTl3E9FvATK/Ug3kJ/TNiD0KdnQfgCo7Inet99nM8u/Eg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Fellandes\\RiderProjects\\Course1\\EntityFrameworkDemo1\\EntityFrameworkDemo1.csproj",
+  "projectFilePath": "C:\\Users\\Fellandes\\RiderProjects\\Course\\EntityFrameworkDemo1\\EntityFrameworkDemo1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Fellandes\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Fellandes\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

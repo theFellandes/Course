@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fellandes\\RiderProjects\\Course1\\RecapDemo2\\RecapDemo2.csproj": {}
+    "C:\\Users\\Fellandes\\RiderProjects\\Course\\RecapDemo2\\RecapDemo2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fellandes\\RiderProjects\\Course1\\RecapDemo2\\RecapDemo2.csproj": {
+    "C:\\Users\\Fellandes\\RiderProjects\\Course\\RecapDemo2\\RecapDemo2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fellandes\\RiderProjects\\Course1\\RecapDemo2\\RecapDemo2.csproj",
+        "projectUniqueName": "C:\\Users\\Fellandes\\RiderProjects\\Course\\RecapDemo2\\RecapDemo2.csproj",
         "projectName": "RecapDemo2",
-        "projectPath": "C:\\Users\\Fellandes\\RiderProjects\\Course1\\RecapDemo2\\RecapDemo2.csproj",
+        "projectPath": "C:\\Users\\Fellandes\\RiderProjects\\Course\\RecapDemo2\\RecapDemo2.csproj",
         "packagesPath": "C:\\Users\\Fellandes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fellandes\\RiderProjects\\Course1\\RecapDemo2\\obj\\",
+        "outputPath": "C:\\Users\\Fellandes\\RiderProjects\\Course\\RecapDemo2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
