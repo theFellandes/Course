@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Net.Http;
+using System.Reflection;
 
 namespace Reflection
 {
@@ -9,6 +11,27 @@ namespace Reflection
             //Default constructor olmazsa bu notasyon çalışmaz.
             DortIslem dortIslem = new DortIslem {Sayi1 = 12, Sayi2 = 2};
             
+            //Reflection
+            //Çalışma anında dinamik instance üretir.
+            var type = typeof(DortIslem);
+            //DortIslem dortIslem = new DortIslem {Sayi1 = 12, Sayi2 = 2};
+            //Bu ifadenin aynısı ancak biz bu işlemi çalışma anında yapmış oluyoruz.
+            //Gelen tipe göre bu işlemi yapıyoruz.
+            //castladık
+            var dortIslem2 = (DortIslem)Activator.CreateInstance(type);
+            //Constructor parametreli hali
+            var dortIslem3 = (DortIslem)Activator.CreateInstance(type, 6, 7);
+
+            var instance = Activator.CreateInstance(type, 6, 7);
+            //GetMethod ile methoda ulaşıyoruz, Invoke ile de o methodu çalıştırıyoruz.
+            MethodInfo methodInfo = instance.GetType().GetMethod("Topla2");
+            Console.WriteLine(instance.GetType()
+                .GetMethod("Topla2")
+                ?.Invoke(instance, null));
+            //method bilgisi toplanıyor, instance ile bağlantıyı kaybettiğimizden hangi örneği
+            //çalıştıracağımız bilgisini vermiş oluyoruz.
+            Console.WriteLine(methodInfo.Invoke(instance, null));
+
         }
     }
 
