@@ -21,6 +21,7 @@ namespace Exceptions
             // {
             //     Console.WriteLine("Does something");
             // }
+            //////////////////////////////////
             //Parametre türü olarak method yollayacağız.
             // () => {} delegate demek, () methoda karşılık geliyor
             // HandleException(() =>

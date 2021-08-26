@@ -8,25 +8,25 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Fellandes\\.nuget\\packages\\": {},
+    "C:\\Users\\Felladien\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Fellandes\\RiderProjects\\Course\\Inheritance\\Inheritance.csproj",
+      "projectUniqueName": "C:\\Users\\Felladien\\RiderProjects\\Course\\Inheritance\\Inheritance.csproj",
       "projectName": "Inheritance",
-      "projectPath": "C:\\Users\\Fellandes\\RiderProjects\\Course\\Inheritance\\Inheritance.csproj",
-      "packagesPath": "C:\\Users\\Fellandes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Fellandes\\RiderProjects\\Course\\Inheritance\\obj\\",
+      "projectPath": "C:\\Users\\Felladien\\RiderProjects\\Course\\Inheritance\\Inheritance.csproj",
+      "packagesPath": "C:\\Users\\Felladien\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Felladien\\RiderProjects\\Course\\Inheritance\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
       ],
       "configFilePaths": [
-        "C:\\Users\\Fellandes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Felladien\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -36,7 +36,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\Fellandes\\RiderProjects\\packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -69,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
